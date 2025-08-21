@@ -11,7 +11,9 @@ class ProductDetailScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(title: Text('중고거래')),
+      appBar: AppBar(
+        title: Align(alignment: Alignment.centerLeft, child: Text('상품 상세')),
+      ),
       body: Column(
         children: [
           Expanded(
