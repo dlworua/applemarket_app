@@ -18,6 +18,14 @@ final List<Product> products = [
     price: 150000,
   ),
   Product(
+    imageName: 'sample0',
+    imagePath: 'assets/sample0.jpg',
+    name: 'Flutter 네이티브 앱 제작 해드립니다!',
+    description:
+        'Flutter로 자신만의 앱을 만들어보세요! \\nIos와 Android 모두 사용가능한 네이티브 앱 개발!\\n저에게 맡겨주세요:) ',
+    price: 1000000,
+  ),
+  Product(
     imageName: 'sample3',
     imagePath: 'assets/sample3.png',
     name: '샤넬 카드지갑',
