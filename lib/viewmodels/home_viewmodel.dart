@@ -24,7 +24,7 @@ class HomeViewModel extends StateNotifier<HomeState> {
   // 알림 표시
   void showNotification(
     BuildContext context, {
-    String message = '알림이 도착했습니다!',
+    String message = '알림버튼이 눌렸습니다!',
   }) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text(message), duration: Duration(seconds: 2)),
