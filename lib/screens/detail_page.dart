@@ -147,7 +147,7 @@ class ProductDetailScreen extends ConsumerWidget {
                 SizedBox(width: 30),
                 Icon(Icons.favorite_border, color: Colors.grey[600]),
 
-                SizedBox(width: 80),
+                SizedBox(width: 50),
 
                 // 가격
                 Expanded(
@@ -157,7 +157,7 @@ class ProductDetailScreen extends ConsumerWidget {
                   ),
                 ),
 
-                SizedBox(width: 40),
+                SizedBox(width: 10),
 
                 // 채팅하기 버튼
                 Expanded(
