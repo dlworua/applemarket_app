@@ -17,7 +17,7 @@ class HomeViewModel extends StateNotifier<HomeState> {
     return productList[index];
   }
 
-  // UI 유틸리티
+  // NumberFormat으로 1000단위 콤마
   String formatPrice(int price) => '${NumberFormat('#,###').format(price)}원';
   bool shouldShowDivider(int index) => index < productList.length - 1;
 
